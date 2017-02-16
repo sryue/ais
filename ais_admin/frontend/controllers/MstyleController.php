@@ -64,10 +64,6 @@ class MstyleController extends CommonController
 		}else{
 			echo 0;
 		}
-			
-
-		
-
 	}
 	public function actionList(){
 
@@ -105,5 +101,5 @@ class MstyleController extends CommonController
 		}
 	}
 }
-../../../ais_image/1487241792.jpg
+
 ?>
