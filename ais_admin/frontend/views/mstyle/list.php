@@ -20,6 +20,7 @@ use yii\widgets\LinkPager;
                     <th>
                         风格名称
                     </th>
+                    <th>风格图片</th>
                     <th>
                         操作
                     </th>
@@ -32,6 +33,7 @@ use yii\widgets\LinkPager;
                     <tr ids="<?php echo $v['style_id']; ?>">
                         <td><?php echo $v['style_id']; ?></td>
                         <td><?php echo $v['style_name']; ?></td>
+                        <td><img src="<?php echo $v['style_img']?>" alt="" width="40" height="40"/></td>
                         <td><a class="del">删除</a></td>
                     </tr>
                 <?php }
