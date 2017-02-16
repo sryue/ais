@@ -32988,3 +32988,81 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487246117.9319
     'REQUEST_TIME' => 1487246117
 ]
+2017-02-16 21:00:09 [::1][-][hetvvtqmk2l3ig7qi2ms4lv8c5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "mystyle/list".' in D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mystyle/list', Array)
+#1 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\aishang\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\aishang\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-16 21:00:08 [::1][-][hetvvtqmk2l3ig7qi2ms4lv8c5][info][application] $_GET = [
+    'r' => 'mystyle/list'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'advanced-frontend' => 'euk2q7283n7vr9q0ercr0cut41'
+    '_csrf-frontend' => '85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo\";}'
+    'PHPSESSID' => 'hetvvtqmk2l3ig7qi2ms4lv8c5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'authcode' => '6590'
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/aishang/ais_admin/frontend/web/index.php?r=mystyle/list'
+    'QUERY_STRING' => 'r=mystyle/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61644'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/aishang/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; advanced-frontend=euk2q7283n7vr9q0ercr0cut41; _csrf-frontend=85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo%22%3B%7D; PHPSESSID=hetvvtqmk2l3ig7qi2ms4lv8c5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487250008.1324
+    'REQUEST_TIME' => 1487250008
+]
