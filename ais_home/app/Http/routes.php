@@ -23,7 +23,8 @@ Route::any('/regist_suc','RegistController@regist_suc');
 //精品
 Route::any('/quality','QualityController@index');
 
-
+//精选
+Route::any('/jx','JxController@index');
 
 /*
 |--------------------------------------------------------------------------
