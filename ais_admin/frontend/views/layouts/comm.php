@@ -618,7 +618,7 @@
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1">
+                    <a ui-sref="app.dashboard-v1" href="?r=systems/index">
                       <span>轮播图</span>
                     </a>
                   </li>
