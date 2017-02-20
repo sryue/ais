@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>精选集详情</title>
     <style>
-        #one{ background-image: url("images/5.jpg"); height: 500px;width: 980px; }
+        #one{ background: url("images/5.jpg"); background-size:100% 100%  }
         h1{ text-align: center; }
         #o1{ height: 350px;width:350px;float: left; }
         #o2{ height: 350px;width: 630px;float: left; }
@@ -51,11 +51,13 @@
     <div id="foot">
     <div>
         <dl>
+            <a href="#">
             <dt><img src="" style="width: 150px;height: 150px;margin: 20px;"></dt>
             <dd id="f1">
                 <h2><?php echo $val['music_name'] ?></h2>
                 <span><?php echo $val['actor_name'] ?></span>
             </dd>
+            </a>
             <dd id="f2">
                °°°°
             </dd>

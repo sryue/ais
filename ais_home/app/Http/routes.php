@@ -41,6 +41,24 @@ Route::any('chajian','JxController@chajian');
 Route::any('/rank_index','RankingController@rank_index');
 //排行榜详情内容
 Route::any('/rank_lisk','RankingController@rank_lisk');
+
+
+
+
+/*
+*我的主页
+ */
+//主页显示
+Route::any('/mine_index','MineController@mine_index');
+//我的收藏
+Route::any('/mine_favorite','MineController@mine_favorite');
+//关注的艺人
+Route::any('/mine_concern','MineController@mine_concern');
+//最近播放
+Route::any('/mine_lately','MineController@mine_lately');
+//已购
+Route::any('/mine_but','MineController@mine_but');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
