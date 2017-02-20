@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
 </head>
-
 <body>
-
 <div class="music-player">
     <!--<div style="background-image: url(http://i.imgur.com/yqB0erk.jpg);" class="album"></div>-->
 

@@ -33066,3 +33066,370 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487250008.1324
     'REQUEST_TIME' => 1487250008
 ]
+2017-02-17 10:02:20 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'actor_id' cannot be null' in D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\Schema.php(448): yii\db\Command->execute()
+#2 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 D:\phpStudy\WWW\aishang\ais_admin\frontend\controllers\SongController.php(56): yii\db\BaseActiveRecord->save()
+#6 [internal function]: frontend\controllers\SongController->actionAddsong()
+#7 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\aishang\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'actor_id' cannot be null
+The SQL being executed was: INSERT INTO `ais_music` (`style_id`, `actor_id`, `music_name`, `language`, `music_img`, `music_path`, `tall_music_path`, `lyric_path`, `lssue_time`, `spe_id`) VALUES (1, NULL, '老街', '1', '/songUpload/1487296935.jpg', './music/1487296939.mp3', './bestmusic/1487296939.mp3', './bestmusic/1487296939.mp3', '1487296939', 1)' in D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `ai...')
+#1 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\Schema.php(448): yii\db\Command->execute()
+#2 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 D:\phpStudy\WWW\aishang\ais_admin\frontend\controllers\SongController.php(56): yii\db\BaseActiveRecord->save()
+#6 [internal function]: frontend\controllers\SongController->actionAddsong()
+#7 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\aishang\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'actor_id' cannot be null
+)
+
+2017-02-17 10:02:19 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/addsong'
+]
+
+$_POST = [
+    'style_id' => '1'
+    'music_name' => '老街'
+    'actor_id' => ''
+    'spe_id' => '1'
+    'language' => '1'
+    'music_img' => '/songUpload/1487296935.jpg'
+]
+
+$_FILES = [
+    'song' => [
+        'name' => '李荣浩 - 老街 [mqms2].mp3'
+        'type' => 'audio/mpeg'
+        'tmp_name' => 'C:\\Windows\\phpBB46.tmp'
+        'error' => 0
+        'size' => 5101799
+    ]
+    'songbest' => [
+        'name' => '李荣浩 - 老街 [mqms2].mp3'
+        'type' => 'audio/mpeg'
+        'tmp_name' => 'C:\\Windows\\phpBC22.tmp'
+        'error' => 0
+        'size' => 5101799
+    ]
+    'lyrics' => [
+        'name' => ''
+        'type' => ''
+        'tmp_name' => ''
+        'error' => 4
+        'size' => 0
+    ]
+    'file' => [
+        'name' => ''
+        'type' => ''
+        'tmp_name' => ''
+        'error' => 4
+        'size' => 0
+    ]
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '464'
+    'SCRIPT_NAME' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/aishang/ais_admin/frontend/web/?r=song/addsong'
+    'QUERY_STRING' => 'r=song/addsong'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51146'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/aishang/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '10204884'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------7982288119106'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'HTTP_REFERER' => 'http://localhost/aishang/ais_admin/frontend/web/?r=song/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487296938.5958
+    'REQUEST_TIME' => 1487296938
+]
+2017-02-18 09:25:29 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: HTTP_REFERER' in D:\phpStudy\WWW\aishang\ais_admin\frontend\views\mstyle\list.php:36
+Stack trace:
+#0 D:\phpStudy\WWW\aishang\ais_admin\frontend\views\mstyle\list.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpStudy\\WWW...', 36, Array)
+#1 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(325): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\MstyleController))
+#4 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('list', Array, Object(frontend\controllers\MstyleController))
+#5 D:\phpStudy\WWW\aishang\ais_admin\frontend\controllers\MstyleController.php(89): yii\base\Controller->render('list', Array)
+#6 [internal function]: frontend\controllers\MstyleController->actionList()
+#7 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('list', Array)
+#10 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mstyle/list', Array)
+#11 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\aishang\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-02-18 09:25:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'mstyle/list'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'PHPSESSID' => 'v00dfu4s6d3n7nrglhbsml2fo3'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1968'
+    'SCRIPT_NAME' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/aishang/ais_admin/frontend/web/?r=mstyle/list'
+    'QUERY_STRING' => 'r=mstyle/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52090'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/aishang/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; PHPSESSID=v00dfu4s6d3n7nrglhbsml2fo3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487381128.169
+    'REQUEST_TIME' => 1487381128
+]
+2017-02-18 09:26:14 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant HTTP_REFERER - assumed 'HTTP_REFERER'' in D:\phpStudy\WWW\aishang\ais_admin\frontend\views\mstyle\list.php:36
+Stack trace:
+#0 D:\phpStudy\WWW\aishang\ais_admin\frontend\views\mstyle\list.php(36): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\phpStudy\\WWW...', 36, Array)
+#1 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(325): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\MstyleController))
+#4 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('list', Array, Object(frontend\controllers\MstyleController))
+#5 D:\phpStudy\WWW\aishang\ais_admin\frontend\controllers\MstyleController.php(89): yii\base\Controller->render('list', Array)
+#6 [internal function]: frontend\controllers\MstyleController->actionList()
+#7 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('list', Array)
+#10 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mstyle/list', Array)
+#11 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\aishang\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-02-18 09:26:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'mstyle/list'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'PHPSESSID' => 'v00dfu4s6d3n7nrglhbsml2fo3'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/aishang/ais_admin/frontend/web/?r=mstyle/list'
+    'QUERY_STRING' => 'r=mstyle/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52119'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/aishang/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; PHPSESSID=v00dfu4s6d3n7nrglhbsml2fo3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487381173.2646
+    'REQUEST_TIME' => 1487381173
+]
+2017-02-18 09:26:18 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant HTTP_REFERER - assumed 'HTTP_REFERER'' in D:\phpStudy\WWW\aishang\ais_admin\frontend\views\mstyle\list.php:36
+Stack trace:
+#0 D:\phpStudy\WWW\aishang\ais_admin\frontend\views\mstyle\list.php(36): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\phpStudy\\WWW...', 36, Array)
+#1 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(325): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\MstyleController))
+#4 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('list', Array, Object(frontend\controllers\MstyleController))
+#5 D:\phpStudy\WWW\aishang\ais_admin\frontend\controllers\MstyleController.php(89): yii\base\Controller->render('list', Array)
+#6 [internal function]: frontend\controllers\MstyleController->actionList()
+#7 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('list', Array)
+#10 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mstyle/list', Array)
+#11 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\aishang\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-02-18 09:26:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'mstyle/list'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'PHPSESSID' => 'v00dfu4s6d3n7nrglhbsml2fo3'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/aishang/ais_admin/frontend/web/?r=mstyle/list'
+    'QUERY_STRING' => 'r=mstyle/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52124'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/aishang/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; PHPSESSID=v00dfu4s6d3n7nrglhbsml2fo3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/aishang/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487381176.9968
+    'REQUEST_TIME' => 1487381176
+]

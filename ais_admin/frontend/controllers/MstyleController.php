@@ -30,7 +30,7 @@ class MstyleController extends CommonController
         //截取
         $time = time();
         $img_zhui = substr($img_name, strrpos($img_name, '.') + 1);
-        $image_name = '../../../ais_image/'.$time.'.'.$img_zhui;
+        $image_name = 'aishang/ais_image/'.$time.'.'.$img_zhui;
        file_put_contents($image_name,$img);
         if(file_exists($image_name))
         {
