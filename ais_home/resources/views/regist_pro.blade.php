@@ -7,11 +7,11 @@
 <link rel="stylesheet" href="./css/regist2.css">
 <body>
     <div id="head">
-        <a href="/regist" id="return">←</a>
+        <a href="regist" id="return">←</a>
         <span>注册</span>
     </div>
     <span id="ts">你会收到一条带验证的短信</span><br>
-    <form action="/regist_suc"  method="post">
+    <form action="regist_suc"  method="post">
         <input type="text" id="capth" name="capth" placeholder="&nbsp;&nbsp;请输入验证码">
         <input type="password" id="password" name="password" placeholder="&nbsp;&nbsp;请设置密码,6-12位、英文、符号">
         <input type="text" id="nick_name" name="nickname" placeholder="&nbsp;&nbsp;请输入昵称">

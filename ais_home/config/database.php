@@ -57,7 +57,7 @@ return [
             'host'      => 'localhost',
             'database'  => 'ais_music',
             'username'  => 'root',
-            'password'  => 'rootroot',
+            'password'  => 'root',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => 'ais_',

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -9,14 +10,14 @@
     <div id="head">
         <a href="#" id="return">←</a>
         <span>登录</span>
-        <a href="/regist" id="regist">注册</a>
+        <a href="regist" id="regist">注册</a>
     </div>
     <div id="logoimg">
         <img src="./images/logo.png" alt="" id="logo">
         <span>爱尚音乐</span>
     </div>
     <div id="loginform">
-        <form action="/login_pro" method="post">
+        <form action="login_pro" method="post">
             @if(isset($error))
                 <span id='ts' style="font-size: 43px;color: red;padding-left: 240px;">{{$error}}</span>
                 @else
@@ -31,9 +32,10 @@
     <span >其他登录方式</span>
     </div>
     <ul id="automethod">
+
         <li><a href="#"><img src="./images/taobao.png" alt=""></a></li>
-        <li><a href="#"><img src="./images/weibo.png" alt=""></a></li>
-        <li><a href="#"><img src="./images/qq.png" alt=""></a></li>
+        <li><a href="https://api.weibo.com/oauth2/authorize?client_id={{Config::get('web.sinaAppkey')}}&redirect_uri={{Config::get('web.sinacallback')}}&display={{Config::get('web.sinamethod')}}"><img src="./images/weibo.png" alt=""></a></li>
+        <li><a href="https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id={{Config::get('web.qqAppid')}}&redirect_uri={{Config::get('web.qqcallback')}}&display={{Config::get('web.mobile')}}&state=test"><img src="./images/qq.png" alt="""></a></li>
     </ul>
 </body>
 </html>

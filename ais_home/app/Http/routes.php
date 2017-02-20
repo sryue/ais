@@ -13,19 +13,25 @@
 
 //首页
 Route::any('/','IndexController@index');
-//登录
-Route::any('/login','LoginController@login');
-//注册
-Route::any('/regist','RegistController@regist');
-Route::any('/regist_pro','RegistController@regist_pro');
-Route::any('/regist_suc','RegistController@regist_suc');
+
+Route::any('login','LoginController@login');
+Route::any('regist','RegistController@regist');
+Route::any('regist_pro','RegistController@regist_pro');
+Route::any('regist_suc','RegistController@regist_suc');
+Route::any('login_pro','LoginController@login_pro');
+
+// 新浪第三方登录 重定向地址
+Route::any('login_sina','LoginController@login_sina');
+// qq第三方登录 重定向地址
+Route::any('login_qq','LoginController@login_qq');
+
 
 //精品
-Route::any('/quality','QualityController@index');
+Route::any('quality','QualityController@index');
 
 //精选
-Route::any('/jx','JxController@index');
-
+Route::any('jx','JxController@index');
+Route::any('chajian','JxController@chajian');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

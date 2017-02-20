@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>精选集详情</title>
     <style>
-        #one{ background-image: url("img/1.jpg"); height: 500px;width: 980px; }
+        #one{ background-image: url("images/5.jpg"); height: 500px;width: 980px; }
         h1{ text-align: center; }
         #o1{ height: 350px;width:350px;float: left; }
         #o2{ height: 350px;width: 630px;float: left; }
@@ -25,13 +25,19 @@
 <body>
 <div id="one">
     <h1>精选集</h1>
-    <div id="o1">
-        <img src="images/1.jpg" style="width: 300px;height: 300px;margin: 25px;">
+    <?php
+     foreach($one as $k){
+        ?>
+        <div id="o1">
+        <img src="<?php echo $k->spe_img; ?>" style="width: 300px;height: 300px;margin: 25px;">
     </div>
     <div id="o2">
-        <h1>Billboard史上夺冠超10周年的神曲</h1>
-        <h2 style="margin-left: 50px;">Sen ></h2>
+        <h1><?php echo $k->spe_name; ?></h1>
+        <h2 style="margin-left: 50px;"><?php echo $k->spe_desc; ?> ></h2>
     </div>
+     <?php }
+    ?>
+    
     <div id="o3">
         <ul>
             <li>介绍</li>
@@ -41,85 +47,36 @@
         </ul>
     </div>
   <div id="dao">
-        <div id="d1">全部播放17首</div>
+        <div id="d1">全部播放<?php foreach($count as $k){ echo $k->con; } ?>首</div>
         <div id="d2">全部下载</div>
         <div id="d3">管理</div>
     </div>
 </div>
+<?php
+foreach($data as $k){
+    ?>
+    <div id="foot">
+    <div>
+        <dl>
+            <dt>
+            <a href="chajian?music_id=<?php echo $k->music_id?>">
+                <img src="<?php echo $k->music_img; ?>" style="width: 150px;height: 150px;margin: 20px;">
+            </a>
+            </dt>
+            <dd id="f1">
+                <h2><?php echo $k->music_name; ?></h2>
+                <span><?php echo $k->actor_name; ?></span>
+            </dd>
+            <dd id="f2">
+                ***
+            </dd>
+        </dl>
+    </div>
+</div>
+ <?php }
+?>
 
-<div id="foot">
-    <div>
-        <dl>
-            <dt><img src="images/1.jpg" style="width: 150px;height: 150px;margin: 20px;"></dt>
-            <dd id="f1">
-                <h2>We Found Love</h2>
-                <span>sldfsldjflsdkjflsajflskdjf</span>
-            </dd>
-            <dd id="f2">
-                ***
-            </dd>
-        </dl>
-    </div>
-</div>
-<div id="foot">
-    <div>
-        <dl>
-            <dt><img src="images/1.jpg" style="width: 150px;height: 150px;margin: 20px;"></dt>
-            <dd id="f1">
-                <h2>We Found Love</h2>
-                <span>sldfsldjflsdkjflsajflskdjf</span>
-            </dd>
-            <dd id="f2">
-                ***
-            </dd>
-        </dl>
-    </div>
-</div>
-<div id="foot">
-    <div>
-        <dl>
-            <dt><img src="images/1.jpg" style="width: 150px;height: 150px;margin: 20px;"></dt>
-            <dd id="f1">
-                <h2>We Found Love</h2>
-                <span>sldfsldjflsdkjflsajflskdjf</span>
-            </dd>
-            <dd id="f2">
-                ***
-            </dd>
-        </dl>
-    </div>
-</div>
-<div id="foot">
-    <div>
-        <dl>
-            <dt><img src="images/1.jpg" style="width: 150px;height: 150px;margin: 20px;"></dt>
-            <dd id="f1">
-                <h2>We Found Love</h2>
-                <span>sldfsldjflsdkjflsajflskdjf</span>
-            </dd>
-            <dd id="f2">
-                ***
-            </dd>
-        </dl>
-    </div>
-</div>
-<div id="foot">
-    <div>
-        <dl>
-            <dt><img src="images/1.jpg" style="width: 150px;height: 150px;margin: 20px;"></dt>
-            <dd id="f1">
-                <h2>We Found Love</h2>
-                <span>sldfsldjflsdkjflsajflskdjf</span>
-            </dd>
-            <dd id="f2">
-                ***
-            </dd>
-        </dl>
-    </div>
-</div>
-<div id="z">
-    11sdfsdfsfasfasfasfsaf<h1>sdfsdfsdfsdfsdfsdf</h1>
-</div>
+
 
 </body>
 </html>

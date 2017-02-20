@@ -108,21 +108,6 @@
         <li>每日推荐30收</li>
     </ul>
 </div>
-<!--<div class="yuansong">-->
-    <!--<p><span id="yuanmore">更多</span>原创音乐推荐</p>-->
-    <!--<div class="left">-->
-        <!--<dl>-->
-            <!--<dt><img src="./image/1.jpg" alt="" width="20rem" height="20rem"/></dt>-->
-            <!--<dd>-->
-                <!--<h2>秘密的</h2>-->
-                <!--<p>fdsfsdsfdsfdfsd</p>-->
-            <!--</dd>-->
-        <!--</dl>-->
-    <!--</div>-->
-    <!--<div class="right">-->
-        <!--<span>....</span>-->
-    <!--</div>-->
-<!--</div>-->
 <div class="zhuanti">
     <p><span>更多</span>专题</p>
     <div class="zhuanti1">

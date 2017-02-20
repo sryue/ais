@@ -10,7 +10,7 @@
         <a href="/login" id="return">←</a>
         <span>注册</span>
     </div>
-    <form action="/regist_pro" method="post">
+    <form action="regist_pro" method="post">
     <input type="text" id="tel" name="telphone" placeholder="&nbsp;&nbsp;请输入手机号" value="{{ $tel or '' }}">
     @if(!isset($error))
             <span id='ts' style="font-size: 43px;color: red;padding-left: 10px;display: none"></span>

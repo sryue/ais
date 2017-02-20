@@ -24,41 +24,20 @@
     </ul>
 </div>
 <div class="jingxuan">
-    <dl>
-        <dt><img src="./images/2.jpg" alt="" width="200rem" height="200rem"/></dt>
+    <?php
+        foreach($data as $k){
+            ?>
+            <dl>
+        <dt><a href="jx?id=<?php echo $k->spe_id; ?>"><img src="<?php echo $k->spe_img; ?>" alt="" width="200rem" height="200rem"/></a></dt>
         <dd>
-            <h1>xifhdsfjsdfjsdgfdfgfdfddffdgfgf</h1>
-            <p><span>岁月奋斗的健康</span></p>
+            <h1><a href="jx?id=<?php echo $k->spe_id; ?>"><?php echo $k->spe_name; ?></a></h1>
+            <p><a href="jx?id=<?php echo $k->spe_id; ?>"><span><?php echo $k->spe_desc; ?></span></a></p>
         </dd>
     </dl>
-    <dl>
-        <dt><img src="./images/2.jpg" alt="" width="200rem" height="200rem"/></dt>
-        <dd>
-            <h1>xifhdsfjsdfjsdgfdfgfdfddffdgfgf</h1>
-            <p><span>岁月奋斗的健康</span></p>
-        </dd>
-    </dl>
-    <dl>
-        <dt><img src="./images/2.jpg" alt="" width="200rem" height="200rem"/></dt>
-        <dd>
-            <h1>xifhdsfjsdfjsdgfdfgfdfddffdgfgf</h1>
-            <p><span>岁月奋斗的健康</span></p>
-        </dd>
-    </dl>
-    <dl>
-        <dt><img src="./images/2.jpg" alt="" width="200rem" height="200rem"/></dt>
-        <dd>
-            <h1>xifhdsfjsdfjsdgfdfgfdfddffdfgfgfgg</h1>
-            <p><span>岁月奋斗的健康</span></p>
-        </dd>
-    </dl>
-    <dl>
-        <dt><img src="./images/2.jpg" alt="" width="200rem" height="200rem"/></dt>
-        <dd>
-           <h1>xifhdsfjsdfjsdgfdfgfdfddffdgfgf</h1>
-            <p><span>岁月奋斗的健康</span></p>
-        </dd>
-    </dl>
+        <?php }
+    ?>
+    
+    
 </div>
 </body>
 </html>
