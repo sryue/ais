@@ -33066,6 +33066,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487250008.1324
     'REQUEST_TIME' => 1487250008
 ]
+<<<<<<< HEAD
 2017-02-17 10:02:20 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'actor_id' cannot be null' in D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\Command.php:784
 Stack trace:
 #0 D:\phpStudy\WWW\aishang\ais_admin\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
@@ -33242,11 +33243,46 @@ $_COOKIE = [
 
 $_SERVER = [
     'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+2017-02-17 01:44:59 [127.0.0.1][-][5viqhkso3ovkevva8kh49h82d2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: systems/Carousel_show' in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('Carousel_show', Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('systems/Carouse...', Array)
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\bigOne\git3\ais\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\bigOne\git3\ais\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-17 01:44:59 [127.0.0.1][-][5viqhkso3ovkevva8kh49h82d2][info][application] $_GET = [
+    'r' => 'systems/Carousel_show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> f08122fad191fa3ebd1fe9010f3ba12b4822f604
     'SYSTEMROOT' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
     'PHPRC' => 'D:/phpStudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1968'
     'SCRIPT_NAME' => '/aishang/ais_admin/frontend/web/index.php'
@@ -33317,11 +33353,72 @@ $_COOKIE = [
 
 $_SERVER = [
     'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PHPRC' => 'E:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '520'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=systems/Carousel_show'
+    'QUERY_STRING' => 'r=systems/Carousel_show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52123'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487295899.2564
+    'REQUEST_TIME' => 1487295899
+]
+2017-02-19 12:32:14 [127.0.0.1][-][oj0f3g3jm3qitl1mvg2gvd85q4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: systems/list' in F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('list', Array)
+#1 F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('systems/list', Array)
+#2 F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\bigOne\git2\ais\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\bigOne\git2\ais\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-19 12:32:14 [127.0.0.1][-][oj0f3g3jm3qitl1mvg2gvd85q4][info][application] $_GET = [
+    'r' => 'systems/list'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> f08122fad191fa3ebd1fe9010f3ba12b4822f604
     'SYSTEMROOT' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
     'PHPRC' => 'D:/phpStudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1928'
     'SCRIPT_NAME' => '/aishang/ais_admin/frontend/web/index.php'
@@ -33392,11 +33489,77 @@ $_COOKIE = [
 
 $_SERVER = [
     'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PHPRC' => 'E:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1828'
+    'SCRIPT_NAME' => '/git2/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git2/ais/ais_admin/frontend/web/?r=systems/list'
+    'QUERY_STRING' => 'r=systems/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56862'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git2/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git2/ais/ais_admin/frontend/web/?r=systems/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git2/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487507534.4472
+    'REQUEST_TIME' => 1487507534
+]
+2017-02-19 12:32:27 [127.0.0.1][-][oj0f3g3jm3qitl1mvg2gvd85q4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: systems/list' in F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('list', Array)
+#1 F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('systems/list', Array)
+#2 F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\bigOne\git2\ais\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\bigOne\git2\ais\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\bigOne\git2\ais\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-19 12:32:27 [127.0.0.1][-][oj0f3g3jm3qitl1mvg2gvd85q4][info][application] $_GET = [
+    'r' => 'systems/list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'oj0f3g3jm3qitl1mvg2gvd85q4'
+    '_csrf' => '0e1a6666dd88246cffd11cfa208830a41c0bd89620ae4f063b41e80fcffedd3fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"v0HXgB7VO1RED46tJ4dYxDa8U6zEbh1X\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> f08122fad191fa3ebd1fe9010f3ba12b4822f604
     'SYSTEMROOT' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
     'PHPRC' => 'D:/phpStudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1928'
     'SCRIPT_NAME' => '/aishang/ais_admin/frontend/web/index.php'
@@ -33432,4 +33595,41 @@ $_SERVER = [
     'PHP_SELF' => '/aishang/ais_admin/frontend/web/index.php'
     'REQUEST_TIME_FLOAT' => 1487381176.9968
     'REQUEST_TIME' => 1487381176
+=======
+    'PHPRC' => 'E:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1828'
+    'SCRIPT_NAME' => '/git2/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git2/ais/ais_admin/frontend/web/?r=systems/list'
+    'QUERY_STRING' => 'r=systems/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56872'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git2/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=oj0f3g3jm3qitl1mvg2gvd85q4; _csrf=0e1a6666dd88246cffd11cfa208830a41c0bd89620ae4f063b41e80fcffedd3fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22v0HXgB7VO1RED46tJ4dYxDa8U6zEbh1X%22%3B%7D'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git2/ais/ais_admin/frontend/web/?r=systems/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git2/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487507547.562
+    'REQUEST_TIME' => 1487507547
+>>>>>>> f08122fad191fa3ebd1fe9010f3ba12b4822f604
 ]

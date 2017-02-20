@@ -617,9 +617,14 @@
                       <span translate="aside.nav.DASHBOARD"></span>
                     </a>
                   </li>
+                   <li ui-sref-active="active">
+                    <a ui-sref="app.dashboard-v1" href="?r=systems/index">
+                      <span>添加轮播图</span>
+                    </a>
+                  </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1">
-                      <span>轮播图</span>
+                    <a ui-sref="app.dashboard-v1" href="?r=systems/carousel_show">
+                      <span>轮播图列表</span>
                     </a>
                   </li>
                   <li ui-sref-active="active">
