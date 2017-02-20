@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +32,15 @@ Route::any('quality','QualityController@index');
 //精选
 Route::any('jx','JxController@index');
 Route::any('chajian','JxController@chajian');
+
+
+/*
+排行
+ */
+//排行榜
+Route::any('/rank_index','RankingController@rank_index');
+//排行榜详情内容
+Route::any('/rank_lisk','RankingController@rank_lisk');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
