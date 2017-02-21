@@ -44,11 +44,18 @@
     首页&nbsp;&nbsp;&nbsp;&nbsp;<a href="quality">精选集</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{URL('/rank_index')}}">排行榜</a>&nbsp;&nbsp;&nbsp;&nbsp;电台&nbsp;&nbsp;mv
 </div>
 <div class="focusBox">
+    <!-- 
+
+    轮播图
+
+     -->
     <ul class="pic" >
-        <li><a href="http://hovertree.com/menu/texiao/" target="_blank"><img src="./images/2.jpg"></a></li>
-        <li><a href="http://hovertree.com/h/bjaf/szbeijing.htm" target="_blank"><img src="./images/3.jpg"></a></li>
-        <li><a href="http://hovertree.com/h/bjaf/hovertreebox.htm" target="_blank"><img src="./images/4.jpg"></a></li>
-        <li><a href="http://hovertree.com/h/bjaf/8c5uhche.htm" target="_blank"><img src="./images/5.jpg"></a></li>
+        <?php foreach ($car_data as $key => $val): ?>
+                 <li><a href="http://hovertree.com/menu/texiao/" target="_blank"><img src="http://yi.bigs.com/git3/ais/ais_admin/frontend/web/instyle/images/carousel/<?php echo $val['car_file'] ?>"></a></li>
+        <?php endforeach ?>
+        <!-- <li><a href="http://hovertree.com/h/bjaf/szbeijing.htm" target="_blank"><img src="http://yi.bigs.com/git3/ais/ais_admin/frontend/web/instyle/images/carousel/3.jpg"></a></li>
+        <li><a href="http://hovertree.com/h/bjaf/hovertreebox.htm" target="_blank"><img src="http://yi.bigs.com/git3/ais/ais_admin/frontend/web/instyle/images/carousel/4.jpg"></a></li>
+        <li><a href="http://hovertree.com/h/bjaf/8c5uhche.htm" target="_blank"><img src="http://yi.bigs.com/git3/ais/ais_admin/frontend/web/instyle/images/carousel/5.jpg"></a></li> -->
     </ul>
     <!-- <div class="txt-bg"></div> -->
     <ul class="num">

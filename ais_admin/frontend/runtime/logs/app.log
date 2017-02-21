@@ -33633,3 +33633,703 @@ $_SERVER = [
     'REQUEST_TIME' => 1487507547
 >>>>>>> f08122fad191fa3ebd1fe9010f3ba12b4822f604
 ]
+2017-02-21 10:45:57 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:45:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51711'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673957.4001
+    'REQUEST_TIME' => 1487673957
+]
+2017-02-21 10:46:05 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:46:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'systems/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=systems/index'
+    'QUERY_STRING' => 'r=systems/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51719'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673965.7106
+    'REQUEST_TIME' => 1487673965
+]
+2017-02-21 10:46:07 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:46:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'systems/carousel_show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=systems/carousel_show'
+    'QUERY_STRING' => 'r=systems/carousel_show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51719'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=systems/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673967.8657
+    'REQUEST_TIME' => 1487673967
+]
+2017-02-21 10:46:16 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:46:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=song/discuss'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51725'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=systems/carousel_show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673976.5642
+    'REQUEST_TIME' => 1487673976
+]
+2017-02-21 10:46:19 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:46:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mgc/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=mgc/index'
+    'QUERY_STRING' => 'r=mgc/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51725'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=song/discuss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673979.7814
+    'REQUEST_TIME' => 1487673979
+]
+2017-02-21 10:46:24 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:46:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=song/discuss'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51725'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=mgc/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673984.3236
+    'REQUEST_TIME' => 1487673984
+]
+2017-02-21 10:46:30 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:46:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'special/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=special/index'
+    'QUERY_STRING' => 'r=special/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51738'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=song/discuss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673990.526
+    'REQUEST_TIME' => 1487673990
+]
+2017-02-21 10:46:33 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:46:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'actor/addactor'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=actor/addactor'
+    'QUERY_STRING' => 'r=actor/addactor'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51738'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=special/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673993.1131
+    'REQUEST_TIME' => 1487673993
+]
+2017-02-21 10:46:38 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30447 bytes' 
+
+in F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git3\\...', 86, Array)
+#1 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git3\\...', Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-21 10:46:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'article/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=article/index'
+    'QUERY_STRING' => 'r=article/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51743'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=actor/addactor'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487673998.8445
+    'REQUEST_TIME' => 1487673998
+]
+2017-02-21 10:47:01 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 1 in F:\bigOne\git3\ais\ais_admin\frontend\controllers\ArticleController.php:150
+Stack trace:
+#0 F:\bigOne\git3\ais\ais_admin\frontend\controllers\ArticleController.php(150): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'F:\\bigOne\\git3\\...', 150, Array)
+#1 [internal function]: frontend\controllers\ArticleController->actionCurls()
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('curls', Array)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('article/curls', Array)
+#6 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\bigOne\git3\ais\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2017-02-21 10:46:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'article/curls'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=article/curls'
+    'QUERY_STRING' => 'r=article/curls'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51743'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=article/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487674001.2496
+    'REQUEST_TIME' => 1487674001
+]
+2017-02-21 10:48:32 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 1 in F:\bigOne\git3\ais\ais_admin\frontend\controllers\ArticleController.php:150
+Stack trace:
+#0 F:\bigOne\git3\ais\ais_admin\frontend\controllers\ArticleController.php(150): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'F:\\bigOne\\git3\\...', 150, Array)
+#1 [internal function]: frontend\controllers\ArticleController->actionCurls()
+#2 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('curls', Array)
+#5 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('article/curls', Array)
+#6 F:\bigOne\git3\ais\ais_admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\bigOne\git3\ais\ais_admin\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2017-02-21 10:47:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'article/curls'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajd9s5f9srq6d8ttcdvbpsudr2'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2008'
+    'SCRIPT_NAME' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_URI' => '/git3/ais/ais_admin/frontend/web/?r=article/curls'
+    'QUERY_STRING' => 'r=article/curls'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51790'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git3/ais/ais_admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.bigs.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=ajd9s5f9srq6d8ttcdvbpsudr2'
+    'HTTP_REFERER' => 'http://yi.bigs.com/git3/ais/ais_admin/frontend/web/?r=article/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.bigs.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/git3/ais/ais_admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487674076.1479
+    'REQUEST_TIME' => 1487674076
+]

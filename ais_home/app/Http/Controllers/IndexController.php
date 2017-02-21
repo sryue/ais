@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use DB;
 use Illuminate\Support\Facades\Input;
 use Symfony\Component\HttpFoundation\Session\Session;
+use App\Models\Ais_carousel;
+
 class IndexController extends CommonController
 {
 	public function index()
@@ -19,7 +21,13 @@ class IndexController extends CommonController
 			'topList' => $topList,
 			'hotList' => $hotList,
 		];
-		return view('index',$data);
+		
+		//查询轮播图
+		//实例化轮播图的M
+		$carModel = new Ais_carousel();
+		$car_data = $carModel::orderBy('car_id','desc')->limit(4)->get()->toArray();
+
+		return view('index',$data,["car_data"=>$car_data]);
 	}
 	//播放器
 	public function listen()
