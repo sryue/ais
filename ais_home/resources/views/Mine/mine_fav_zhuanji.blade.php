@@ -21,11 +21,11 @@
 		</div>
 		<hr>
 		<div class="tt">
-			<?php foreach ($coll_data as $key => $val): ?>
+			<?php foreach ($spec_data as $key => $val): ?>
 			<div class="clflaot">
 				<img src="./images/fimg1.jpg">
 				<ul class="ul2">
-					<b><?php echo $val['music_name'] ?></b>
+					<b><?php echo $val['spe_name'] ?></b>
 					<li><?php echo $val['actor_name'] ?></li>
 				</ul>
 			</div>
