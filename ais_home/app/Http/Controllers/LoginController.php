@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
+use Symfony\Component\HttpFoundation\Session\Session;
 use DB;
+
 class LoginController extends Controller
 {
 	public function login()
@@ -118,6 +120,7 @@ class LoginController extends Controller
 	}
 	public function login_pro()
 	{
+        $session = new Session;
 		$data = Input::get();
 		//表单验证
 		if(empty($data['username']))
@@ -137,7 +140,10 @@ class LoginController extends Controller
 				return redirect('login?error=密码不正确&user='.$data['username']);
 			}else
 			{
-				echo '主页';
+                $session->set('session_key',$res);
+             //   $code=$session->get('session_key');
+           //     print_r($code);die;
+                return redirect('/');
 			}
 		}else{
 			return redirect('login?error=账号不正确&user='.$data['username']);

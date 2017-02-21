@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use DB;
 use Illuminate\Support\Facades\Input;
-class IndexController extends Controller
+use Symfony\Component\HttpFoundation\Session\Session;
+class IndexController extends CommonController
 {
 	public function index()
 	{

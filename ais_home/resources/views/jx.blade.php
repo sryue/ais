@@ -44,7 +44,7 @@
             margin-top: 60%;
             width:100%;
             height:40%;
-            background-color:#FF0;
+            background-color:#f0f9fe;
             margin: auto;
             position: absolute;
             z-index:3;
@@ -63,7 +63,17 @@
         #log_window ol li{
             list-style: none;
         }
-        #log_window
+        #log_window ol li span{
+            /*list-style: none;*/
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        #log_window span{
+            font-size: 28px;
+        }
     </style>
 </head>
 <body>
@@ -113,7 +123,7 @@ foreach($data as $k){
                 <span><?php echo $k->actor_name; ?></span>
             </dd>
             <dd id="f2">
-                <a href="javascript:shield()">***</a>
+                <a href="javascript:shield('<?php echo $k->music_id;?>','<?php echo $k->lyric_path;?>')">***</a>
             </dd>
         </dl>
     </div>
@@ -122,47 +132,84 @@ foreach($data as $k){
 ?>
 
 <div id="test"></div>
-<div id="log_window">
+<div id="log_window" music_id="">
    <ol>
        <li><img src="./images/jingxuan.gif" alt="" width="140rem" height="140rem"/></li>
-       <li>加到精选集</li>
+       <li><span>加到精选集</span></li>
    </ol>
     <ol>
         <li><img src="./images/shoucang.gif" alt="" width="140rem" height="140rem"/></li>
-        <li>收藏</li>
+        <li><span id="shou">收藏</span></li>
     </ol>
     <ol>
         <li><img src="./images/xiazai.gif" alt="" width="140rem" height="140rem"/></li>
-        <li>下载</li>
+        <li><span id="load"><a href="">下载</a></span></li>
     </ol><ol>
         <li><img src="./images/bofang.gif" alt="" width="140rem" height="140rem"/></li>
-        <li>加到播放队列</li>
+        <li><span>加到播放队列</span></li>
     </ol>
     <ol>
         <li><img src="./images/yiren.gif" alt="" width="140rem" height="140rem"/></li>
-        <li>艺人详情</li>
+        <li><span>艺人详情</span></li>
     </ol>
     <ol>
         <li><img src="./images/zhuanji.gif" alt="" width="140rem" height="140rem"/></li>
-        <li>专辑详情</li>
+        <li><span>专辑详情</span></li>
     </ol>
     <ol>
         <li><img src="./images/pinglun.gif" alt="" width="140rem" height="140rem"/></li>
-        <li>评论</li>
+        <li><span>评论</span></li>
     </ol>
 
 
     <span><a href="javascript:cancel_shield()">关闭</a></span>
 </div>
 
-
+<script src="./js/jquery.1.12.min.js"></script>
 <script>
-    function shield(){
+    //收藏
+    $('#shou').click(function(){
+       var id = $('#log_window').attr('music_id');
+        $.ajax({
+            type: "POST",
+            url: "shoucang",
+            data: "music_id="+id,
+            success: function(msg){
+                if(msg == 0)
+                {
+                    alert('收藏成功');
+                }
+                else if(msg == 1)
+                {
+                    alert('收藏失败');
+                }
+                else if(msg == 2)
+                {
+                    alert('你已经收藏过该歌曲');
+                }
+                else if(msg == 3)
+                {
+                    alert('请先登录');
+                    location.href = 'login';
+                }
+            }
+        });
+    })
+</script>
+<script>
+
+    function shield(id,path){
         var s = document.getElementById("test");
         s.style.display = "block";
 
         var l = document.getElementById("log_window");
         l.style.display = "block";
+
+        alert(path);
+        $('#log_window').attr('music_id',id);
+//        alert($('#load').children('a').text());
+        $('#load').children('a').attr('href',path);
+
     }
 
     function cancel_shield(){
