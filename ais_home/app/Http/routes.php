@@ -58,6 +58,9 @@ Route::any('/rank_lisk','RankingController@rank_lisk');
 Route::any('/mine_index','MineController@mine_index');
 //我的收藏
 Route::any('/mine_favorite','MineController@mine_favorite');
+//收藏的专辑
+Route::any('/mine_fav_zhuanji','MineController@mine_fav_zhuanji');
+
 //关注的艺人
 Route::any('/mine_concern','MineController@mine_concern');
 //最近播放
