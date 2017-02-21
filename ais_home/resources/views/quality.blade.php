@@ -5,10 +5,11 @@
     <title>首页</title>
    <link href="css/quality.css" rel="stylesheet">
     <style>
-
-    </style>
+    A {text-decoration: NONE} 
+</style>
 </head>
 <body>
+
 <div class="head1">
     <span id="tou"><img src="./images/headtu.jpg" alt=""/></span>我的&nbsp;&nbsp;&nbsp;推荐&nbsp;&nbsp;&nbsp;发现
 </div>
@@ -17,9 +18,9 @@
 </div>
 <div class="head3">
     <ul>
-        <li>推荐</li>
-        <li>最新</li>
-        <li>最热</li>
+        <li><a href="quality">推荐</a></li>
+        <li><a href="xin">最新</a></li>
+        <li><a href="hot">最热</a></li>
         <li>专区</li>
     </ul>
 </div>

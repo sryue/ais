@@ -25,13 +25,23 @@ Route::any('login_sina','LoginController@login_sina');
 // qq第三方登录 重定向地址
 Route::any('login_qq','LoginController@login_qq');
 
+//播放器
+Route::any('/listen','IndexController@listen');
+//加入播放器
+Route::any('/joinlisten','IndexController@joinlisten');
 
 //精品
 Route::any('quality','QualityController@index');
+Route::any('hot','QualityController@hot');
+Route::any('xin','QualityController@xin');
 
 //精选
 Route::any('jx','JxController@index');
 Route::any('chajian','JxController@chajian');
+
+//排行榜
+Route::any('rank_index','RankingController@rank_index');
+Route::any('rank_lisk','RankingController@rank_lisk');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

@@ -36,7 +36,7 @@ html,body
 .head3{
     width: auto;
     height: 4rem;
-    background-color: #f02c71;
+    /*background-color: #f02c71;*/
 }
 .jingxuan{
     float: left;
@@ -55,7 +55,7 @@ html,body
     float: left;
     width: 45rem;
     height: 12rem;
-    background-color: #FF2F2F;
+    /*background-color: #FF2F2F;*/
 }
 .jingxuan dl dd h1{
     font-size: 2.5rem;

@@ -16,10 +16,29 @@ use App\Http\Requests;
 
 class QualityController extends Controller
 {
+    //推荐
     public function index()
     {
-    	$data =DB::select('select * from ais_special');
+    	$data =DB::select('select * from ais_special order by spe_id desc limit 0,6 ');
     	//print_r($data);die;
+        return view('quality',['data'=>$data]);
+    }
+    //最热
+    public function hot(){
+        $data =DB::select('select * from ais_special order by spe_id desc limit 6,12 ');
+        //print_r($data);die;
+        return view('quality',['data'=>$data]);
+    }
+    //最新
+    public function xin(){
+        $data =DB::select('select * from ais_special order by spe_id desc limit 12,18 ');
+        //print_r($data);die;
+        return view('quality',['data'=>$data]);
+    }
+    //专区
+    public function zhuan(){
+        $data =DB::select('select * from ais_special order by spe_id desc limit 18,26 ');
+        //print_r($data);die;
         return view('quality',['data'=>$data]);
     }
 }
