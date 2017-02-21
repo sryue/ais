@@ -37,11 +37,11 @@
     <br>
 
 <div class="head1">
-    <span id="tou"><img src="./images/1.jpg" alt="" width='60px'; height='40px'/></span><span id='tou2'>我的&nbsp;&nbsp;&nbsp;推荐&nbsp;&nbsp;&nbsp;发现
+    <span id="tou"><img src="./images/1.jpg" alt="" width='60px'; height='40px'/></span><span id='tou2'><a href="{{URL('/mine_index')}}" style="color:inherit;">我的</a>&nbsp;&nbsp;&nbsp;推荐&nbsp;&nbsp;&nbsp;发现
     </span>
 </div>
 <div class="head2">
-    首页&nbsp;&nbsp;&nbsp;&nbsp;<a href="quality">精选集</a>&nbsp;&nbsp;&nbsp;&nbsp;排行榜&nbsp;&nbsp;&nbsp;&nbsp;电台&nbsp;&nbsp;mv
+    首页&nbsp;&nbsp;&nbsp;&nbsp;<a href="quality">精选集</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{URL('/rank_index')}}">排行榜</a>&nbsp;&nbsp;&nbsp;&nbsp;电台&nbsp;&nbsp;mv
 </div>
 <div class="focusBox">
     <ul class="pic" >
