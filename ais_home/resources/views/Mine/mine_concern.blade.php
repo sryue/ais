@@ -19,48 +19,18 @@
 			</ul>
 		</a>
 		</div>
+		<?php foreach ($att_data as $key => $val): ?>
 		<div class="tt">
 			<div class="clflaot">
 				<a href="">
 					<img src="./images/fimg1.jpg">
 					<ul class="ul2">
-						<b>Thing</b>
-						<li>sasasassasd</li>
+						<b><?php echo $val['actor_name'] ?></b>
 					</ul>
 				</a>
 			</div>
 			<hr width="88%" style="margin-right:2rem; margin-bottom:2rem;">
-			<div class="clflaot">
-				<a href="">
-					<img src="./images/fimg1.jpg">
-					<ul class="ul2">
-						<b>Thing</b>
-						<li>sasasassasd</li>
-					</ul>
-				</a>
-			</div>
-			<hr width="88%" style="margin-right:2rem; margin-bottom:2rem;">
-			<div class="clflaot">
-				<a href="">
-					<img src="./images/fimg1.jpg">
-					<ul class="ul2">
-						<b>Thing</b>
-						<li>sasasassasd</li>
-					</ul>
-				</a>
-			</div>
-			<hr width="88%" style="margin-right:2rem; margin-bottom:2rem;">
-			<div class="clflaot">
-				<a href="">
-					<img src="./images/fimg1.jpg">
-					<ul class="ul2">
-						<b>Thing</b>
-						<li>sasasassasd</li>
-					</ul>
-				</a>
-			</div>
-			<hr width="88%" style="margin-right:2rem; margin-bottom:2rem;">
-			
-	</div>
+		</div>		
+		<?php endforeach ?>
 </body>
 </html>

@@ -9,7 +9,7 @@
 <body>
 	<div class="all">
 		<div class="head1">
-		    <span id="tou"><img src="./images/1.jpg" alt=""/></span>我的&nbsp;&nbsp;&nbsp;推荐&nbsp;&nbsp;&nbsp;发现
+		    <span id="tou"><!-- <img src="./images/1.jpg" alt=""/> --></span>我的&nbsp;&nbsp;&nbsp;推荐&nbsp;&nbsp;&nbsp;发现
 		</div>
 		<div class="one">
 			<a href=""><img src="./images/my3.jpg" class="Oimg1"></a>
@@ -37,7 +37,6 @@
 			</div>
 			<div class="two2">
 				<h1>把私房音乐库收藏到精选集<br>让爱尚音乐与你一起聆听、分享</h1>
-
 			</div>
 
 			<div class="two3">
