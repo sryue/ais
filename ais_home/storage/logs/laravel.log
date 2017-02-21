@@ -3679,3 +3679,6 @@ Stack trace:
 #32 F:\bigOne\git3\ais\ais_home\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #33 F:\bigOne\git3\ais\ais_home\public\index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #34 {main}  
+[2017-02-21 00:31:40] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function U()' in F:\bigOne\git3\ais\ais_home\storage\framework\views\6a1b4dc2ebe97e516fb6d2b449e462b5e69ce444.php:27
+Stack trace:
+#0 {main}  

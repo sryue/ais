@@ -24,11 +24,11 @@
 
 		<div class="two">
 			<div class="two1">
-				<a href=""><img src="./images/my7.jpg" class="timg"></a>
-				<a href=""><img src="./images/my4.jpg" class="timg"></a>
-				<a href=""><img src="./images/my5.jpg" class="timg"></a>
-				<a href=""><img src="./images/my6.jpg" class="timg"></a>
-				<a href=""><img src="./images/my8.jpg" class="timg"></a><br>
+				<a href="{{URL('/mine_but')}}"><img src="./images/my7.jpg" class="timg"></a>
+				<a href="{{URL('/mine_favorite')}}"><img src="./images/my4.jpg" class="timg"></a>
+				<a href="{{URL('/mine_lately')}}"><img src="./images/my5.jpg" class="timg"></a>
+				<a href="#"><img src="./images/my6.jpg" class="timg"></a>
+				<a href="{{URL('/mine_concern')}}"><img src="./images/my8.jpg" class="timg"></a><br>
 				<span class="s1">已购</span>
 				<span class="s2">收藏</span>
 				<span class="s3">最近播放</span>
